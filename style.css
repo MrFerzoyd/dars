@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    background: #242121;
+
 }
 
 .container {
@@ -15,6 +17,16 @@ a{
 }
 .items{
     margin-top: 15px;
+    position: relative;
+    left: -50px;
+    display: flex;
+    gap: 30px;
+}
+.nav-2{
+    display: flex;
+    gap: 30px;
+    color: white;
+    margin-left: 700px;
 }
 nav {
     justify-content:space-between ;
